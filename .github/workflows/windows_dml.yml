@@ -77,7 +77,7 @@ jobs:
       - uses: ./.github/actions/setup-dotnet
 
       - name: Use Nuget 6.x
-        uses: nuget/setup-nuget@d105a947828025cd7a980103c35ba2bfae586d0f # v2.0.2
+        uses: nuget/setup-nuget@b26b823c478ee115be5c9403e62c90b0bf943843 # v3.1.0
         with:
           nuget-version: '6.x'
 
